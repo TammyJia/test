@@ -1,4 +1,8 @@
 .done-item{
     color: chartreuse;
     font-size:20px;
+    cursor:pointer;
+}
+.not-done{
+    cursor:pointer;
 }

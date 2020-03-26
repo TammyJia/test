@@ -21,7 +21,7 @@ class TodoList extends Component{
         var newlist = [...this.state.todolist];
         for (var item of newlist){
             if(item.content==needtochangeitem){
-                item.done = true;
+                item.done = !item.done;
                 break;
             }
         }
